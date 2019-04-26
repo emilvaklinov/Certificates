@@ -49,8 +49,9 @@
     }
 
     img {
-      display: flex;
-      margin: 50%;
+      display: block;
+      margin-left: 100px;
+      margin-right: 100px;
       cursor: pointer;
       vertical-align: middle;
       border-style: none;
