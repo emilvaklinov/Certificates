@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <title></title>
+  </head>
+
+ <body>
+
+  <header class="jumbotron_text_center">
+    <h1>ACHIEVING GROWTH</h1>
+    <p></p>
+    <h2>MY CERTIFICATES</h2>
+  </header>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <!--<button onclick="" id="mextBtn"title="projects">Projects</button>-->
+
+<script src="main.js"></script>
+
+<input type="button" id="home" class="btn btn-lg btn-success" onclick="location.href='https://emilvaklinov.github.io/Portfolio/';" value="Home" />
+<input type="button" id="projects" class="btn btn-lg btn-success" onclick="location.href='https://emilvaklinov.github.io/Projects/';" value="Projects" />
+
+<h5>All certificates and achivements.</h5>
+<section>
+
+  <div class="container" class="form-wrapper">
+
+
+
+
+
+<div id="section" class="container">
+  <div class="form-wrapper">
+    <h4>Weather App</h4>
+       <a href="https://app-get-weather.herokuapp.com/"target="_blank">
+      <img src="pictures/weatherapp.png" alt="" class="demo cursor">
+  </div>
+  <p> <a href="" target="_blank"></a></p>
+
+  <h3>About the project</h3>
+  <p>
+  JavaScript project: Simple Weather App that works in Fahrenheit. Collaborative project with <a href="https://gminova.github.io/"target="_blank">Gergana (Gigi) </a>
+  in JavaScript, Node JS, Scrum, Atom/VisualStudio, Express, SOLID principles, Heroku CI and Git. Project code is
+  visible at <a href="https://github.com/gminova/weather-app"target="_blank">GitHub </a>.
+  </p>
+
+</div>
+
+<div id="section" class="container">
+    <div class="form-wrapper">
+      <h4>War of wizards - Game</h4>
+         <a href="https://war-of-wizards.herokuapp.com/"target="_blank">
+        <img src="pictures/wizards.png" alt="" class="demo cursor">
+    </div>
+    <p> <a href="" target="_blank"></a></p>
+
+    <h3>About the project</h3>
+    <p>
+    War of Wizards RUBY project Mob App Game and Learning system for Ruby beginners. The user can learn
+    different functions during playing the game. The project was created by using Ruby, PostgreSQL, HTML5, CSS3 and
+    Sinatra. Project code is visible at <a href="https://github.com/emilvaklinov/War-of-Wizards-learning-game-Ruby-project"target="_blank">GitHub </a>.
+    </p>
+
+</div>
+
+</section>
+
+<div class="container">
+ <a href="https://www.linkedin.com/in/emil-vaklinov/"target="_blank">
+  <img src="pictures/emil.jpg" class="img-thumbnail" alt="Linkedin"></a>
+</div>
+
+<h5>
+<form>
+  <input type="button" value="Send e-Mail" onclick="window.location.href='mailto:emil_vaklinov@yahoo.com'" />
+</form>
+</h5>
+
+  <footer> © Emil Vaklinov - 2019</footer>
+
+  </body>
+</html>
+
+<html>
+  <head>
+    <script>
+      function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        document.getElementById('txt').innerHTML =
+        h + ":" + m + ":" + s;
+        var t = setTimeout(startTime, 500);
+      }
+      function checkTime(i) {
+        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+        return i;
+      }
+    </script>
+  </head>
+
+  <body onload="startTime()">
+
+    <div id="txt">Local Time:</div>
+
+  </body>
+</html>
