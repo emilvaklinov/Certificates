@@ -50,7 +50,7 @@
 
     img {
       display: flex;
-      align-items: center;
+      margin: 50%;
       cursor: pointer;
       vertical-align: middle;
       border-style: none;
