@@ -49,9 +49,7 @@ img.img-thumbnail {
 }
 
 img {
-  display: block;
-  margin-left: 250px;
-  margin-right: 200px;
+
   cursor: pointer;
   vertical-align: middle;
   border-style: none;
