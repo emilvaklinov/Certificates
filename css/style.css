@@ -49,15 +49,16 @@
     }
 
     img {
-      text-align: center;
-        cursor: pointer;
-        vertical-align: middle;
-        border-style: none;
-        flex-shrink: 0;
-        width: 400px;
-        height: 550px;
-        box-shadow: 0px 2px 22px 1px rgba(0,0,0,0.2);
-        padding: 0.20rem;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      vertical-align: middle;
+      border-style: none;
+      flex-shrink: 0;
+      width: 400px;
+      height: 550px;
+      box-shadow: 0px 2px 22px 1px rgba(0,0,0,0.2);
+      padding: 0.20rem;
 
     }
     .demo {
