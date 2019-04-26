@@ -36,7 +36,7 @@
         background-color: rgb(145, 143, 143);
       }
 
-      #certificates {
+      #projects {
         position: absolute;
         right: 20px;
         margin-top: 1%;
@@ -49,7 +49,7 @@
         border-radius: 7px;
         font-size: 17px;
     }
-    #certificates:hover {
+    #projects:hover {
         background-color: rgb(145, 143, 143);
       }
     input {
