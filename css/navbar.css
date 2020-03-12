@@ -49,7 +49,7 @@
         border-radius: 7px;
         font-size: 17px;
     }
-    #projectIos {
+      #projectsIos {
       position: absolute;
       right: 20px;
       margin-top: 7%;
@@ -63,6 +63,9 @@
       font-size: 17px;
   }
     #projects:hover {
+        background-color: rgb(145, 143, 143);
+      }
+    #projectsIos:hover {
         background-color: rgb(145, 143, 143);
       }
     input {
